@@ -142,7 +142,7 @@ def game_loop():
         highscoreRect = highscoreRender.get_rect()
 
         scoreRect.right = size[0] - 20
-        scoreRect.top = 10
+        scoreRect.top = 20
         highscoreRect.right = size[0] - 20
         scoreRect.top = 40
 

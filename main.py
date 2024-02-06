@@ -110,17 +110,17 @@ def game_loop():
             hero.sprite.health += 1
             score += 1
             danger_level += 1
-        elif score == 100:
+        elif score == 150:
             hero.sprite.equippedWeapon = Weapon.Shield()
             hero.sprite.health += 1
             score += 1
             danger_level += 1
-        elif score == 250:
+        elif score == 350:
             hero.sprite.equippedWeapon = Weapon.MachineGun()
             hero.sprite.health += 1
             score += 1
             danger_level += 1
-        elif score == 500:
+        elif score == 600:
             hero.sprite.equippedWeapon = Weapon.Laser()
             hero.sprite.health += 1
             score += 1
@@ -142,7 +142,7 @@ def game_loop():
         highscoreRect = highscoreRender.get_rect()
 
         scoreRect.right = size[0] - 20
-        scoreRect.top = 20
+        scoreRect.top = 10
         highscoreRect.right = size[0] - 20
         scoreRect.top = 40
 
